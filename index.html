@@ -22,9 +22,16 @@
     <div class="container my-5 mx-auto">
       <h1 class="text-muted text-center my-4">Weather App</h1>
 
-      <form class="change-location my-4 text-center text-muted">
+      <form id="city-form" class="change-location my-4 text-center text-muted">
         <label for="city">Enter a Location...</label>
         <input type="text" name="city" class="form-control p-4" />
+        <button
+          name="submit"
+          class="mx-auto mt-3 btn btn-lg text-muted btn-outline-secondary"
+          type="submit"
+        >
+          Enter
+        </button>
       </form>
 
       <div class="card shadow-lg rounded">
