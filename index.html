@@ -11,6 +11,12 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
@@ -36,20 +42,19 @@
 
       <div id="card" class="card shadow-lg rounded d-none">
         <img
+          id="time"
           src="https://via.placeholder.com/400x300"
-          class="time card-img-top"
+          class="card-img-top"
         />
-        <div class="icon bg-light mx-auto text-center">
-          <div
-            id="details"
-            class="text-muted text-uppercase text-center details"
-          >
-            <h5 class="my-3">City Name</h5>
-            <div class="my-3">Weather Condition</div>
-            <div class="display-4 my-4">
-              <span>Temp</span>
-              <span>&deg;F</span>
-            </div>
+        <div id="icon" class="bg-light mx-auto text-center">
+          <img src="" alt="" />
+        </div>
+        <div id="details" class="text-muted text-uppercase text-center details">
+          <h5 class="my-3">City Name</h5>
+          <div class="my-3">Weather Condition</div>
+          <div class="display-4 my-4">
+            <span>Temp</span>
+            <span>&deg;F</span>
           </div>
         </div>
       </div>

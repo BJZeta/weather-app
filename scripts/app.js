@@ -1,6 +1,8 @@
 const cityForm = document.getElementById("city-form");
 const card = document.getElementById("card");
 const details = document.getElementById("details");
+const time = document.getElementById("time");
+const icon = document.querySelector("#icon img");
 
 function updateUI(data) {
   const { cityDetails, weather } = data;
