@@ -7,3 +7,14 @@ body {
 .container {
   max-width: 400px;
 }
+
+.icon {
+  border-radius: 50%;
+  position: relative;
+  margin-top: -20px;
+}
+
+.card {
+  max-width: 400px;
+  margin: 0 auto;
+}
