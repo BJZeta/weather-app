@@ -15,6 +15,22 @@ function updateUI(data) {
               <span>&deg;F</span>
     `;
 
+  //UPDATE ICONS
+  const iconSrc = `imgs/${weather.WeatherIcon}.svg`;
+
+  icon.setAttribute("src", iconSrc);
+
+  //UPDATE TIME & DAY
+  let timeSrc = null;
+  if (weather.IsDayTime) {
+    timeSrc =
+      "https://cdna.artstation.com/p/assets/images/images/005/841/874/large/cristian-sabarre-all-star-superman-by-ed-bines-n-dexter-vines.jpg?1494172329";
+  } else {
+    timeSrc =
+      "https://i.pinimg.com/originals/d4/65/c0/d465c0197a2baf48269bafe710255391.jpg";
+  }
+  time.setAttribute("src", timeSrc);
+
   //REMOVE d-none CLASS
   if (card.classList.contains("d-none")) {
     card.classList.remove("d-none");
